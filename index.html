@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Puntacos</title>
+  <meta name="theme-color" content="#f7f7fa">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./icon.svg">
+  <link rel="apple-touch-icon" href="./icon.svg">
+  <link rel="stylesheet" href="./css/shell.css">
+  <link rel="stylesheet" href="./css/games/anotador-universal.css">
+  <link rel="stylesheet" href="./css/games/sushi-go.css">
+  <link rel="stylesheet" href="./css/games/flip-7.css">
+  <link rel="stylesheet" href="./css/games/isla-calavera.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- Juegos: cada uno se registra en window.PuntacosGames antes de cargar shell.js -->
+  <script src="./js/games/anotador-universal.js"></script>
+  <script src="./js/games/sushi-go.js"></script>
+  <script src="./js/games/flip-7.js"></script>
+  <script src="./js/games/isla-calavera.js"></script>
+  <script src="./js/shell.js"></script>
+</body>
+</html>

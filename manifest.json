@@ -1,0 +1,16 @@
+{
+  "name": "Puntacos",
+  "short_name": "Puntacos",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f7fa",
+  "theme_color": "#f7f7fa",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
